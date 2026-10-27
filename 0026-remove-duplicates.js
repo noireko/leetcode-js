@@ -9,15 +9,13 @@
  * The first k elements of nums should contain the unique numbers in sorted order. The remaining elements beyond index k - 1 can be ignored.
 */
 var removeDuplicates = function (nums) {
-    const list = [];
-    const k = list.length;
-    for (let i = 0; i < nums.length; i++) {
-        if (!list.includes(nums[i])) {
-            list.push(nums[i]);
-        } else {
-            continue;
+    let k = 1;
+    for (let i = 1; i < nums.length; i++) {
+        if (nums[i] !== nums[i - 1]) {
+            nums[k] = nums[i];
+            k++;
         }
     }
-    return list;
+    return k;
 };
 
