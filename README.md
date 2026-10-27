@@ -22,11 +22,5 @@ Cada archivo incluye la dificultad, el patrón usado, la complejidad en notació
 
 ## Autor
 
-[Tu nombre](https://github.com/tu-usuario)
+[Tu nombre](https://github.com/noireko)
 
-- Si mejoro una solución, dejo la versión inicial y la optimizada en el mismo archivo para mostrar la evolución.
-- Cuando consulto una solución, la entiendo y la reescribo desde cero antes de subirla.
-
-## Autor
-
-[Tu nombre](https://github.com/tu-usuario)
