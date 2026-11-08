@@ -10,4 +10,6 @@
  * 
  */
 
-function twoSum () 
+function twoSum (array, target) {
+
+}
