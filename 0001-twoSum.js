@@ -12,4 +12,4 @@
 
 function twoSum (array, target) {
 
-}
+};
