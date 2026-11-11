@@ -13,7 +13,7 @@
 function twoSum (array, target) {
     for (let i = 0; i < array.length; i++) {
         for (let f = 0; f < i.length; f++) {
-            
-        }
+
+        };
     };
 };
