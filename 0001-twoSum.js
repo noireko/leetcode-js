@@ -10,10 +10,18 @@
  * 
  */
 
-function twoSum (array, target) {
-    for (let i = 0; i < array.length; i++) {
-        for (let f = 0; f < i.length; f++) {
-
-        };
-    };
-};
+function twoSum(array, target) {
+  let resultado = [];
+  for (let i = 0; i < array.length; i++) {
+    
+    for (let f = 0; f < array.length; f++) {
+      console.log(array[i], array[f])
+      if (array[i] === array[f]) {
+        continue
+      } else if (array[i] + array[f] === target) {
+        resultado.push(array[i])
+      }
+    }
+  }
+  return resultado
+}
