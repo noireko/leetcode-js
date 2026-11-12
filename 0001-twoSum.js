@@ -15,7 +15,10 @@ function twoSum(array, target) {
   for (let i = 0; i < array.length; i++) {
     for (let f = 0; f < array.length; f++) {
       console.log(array[i], array[f]);
-      if (array[i] + array[f] === target) {
+      if (
+        array[i] + array[f] === target &&
+        resultado.includes(array[i]) === false
+      ) {
         resultado.push(array[i]);
       }
     }
